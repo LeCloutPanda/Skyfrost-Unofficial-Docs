@@ -199,5 +199,47 @@ Not going to shows only `content` here, so you have the whole message as example
 ```
 
 # Message type 'Object'
-
-No sample available yet :(
+```json
+{
+  "id": "R-UUIDv4",
+  "ownerId": "U-userId",
+  "assetUri": "resdb:///something-something.brson",
+  "version": {
+    "globalVersion": 0,
+    "localVersion": 1,
+    "lastModifyingUserId": "U-userId",
+    "lastModifyingMachineId": "a machine ID hash"
+  },
+  "name": "name of object",
+  "description": null,
+  "recordType": "object",
+  "ownerName": null,
+  "tags": [
+    "clipboard",
+    "image",
+    "pm",
+    "message_item",
+    "message_id:MSG-UUIDv4"
+  ],
+  "path": null,
+  "thumbnailUri": "resdb:///something-something.webp",
+  "isPublic": false,
+  "isForPatrons": false,
+  "isListed": false,
+  "isReadOnly": false,
+  "lastModificationTime": "2025-07-05T11:21:59.3505561Z",
+  "rootRecordId": null,
+  "creationTime": "2025-07-05T11:21:59.3495548Z",
+  "firstPublishTime": null,
+  "isDeleted": false,
+  "visits": 0,
+  "rating": 0,
+  "randomOrder": 0,
+  "submissions": null,
+  "migrationMetadata": null,
+  "assetManifest": null,
+  "IsValidOwnerId": true,
+  "IsValidRecordId": true,
+  "neosDBmanifest": null
+}
+```
