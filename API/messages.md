@@ -239,6 +239,7 @@ Not going to shows only `content` here, so you have the whole message as example
   "migrationMetadata": null,
   "assetManifest": null,
   "IsValidOwnerId": true,
-  "IsValidRecordId": true
+  "IsValidRecordId": true,
+  "neosDBmanifest": null
 }
 ```
